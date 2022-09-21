@@ -3,7 +3,7 @@ envs:
   app_version:  "2.0.0"
   project_id: "gduzbyqwhqloandy"
   app_name:    "artemis"
-  
+  image_tag: ${{ GITHUB_BRANCH }}
   
   name: ContinuousDelivery
 
